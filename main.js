@@ -12,7 +12,7 @@ const tempId = (id, text) => {
     document.getElementById(id).innerText = text;
 }
 const searhDisplay = tempareture => {
-    console.log(tempareture);
+    // console.log(tempareture);
     tempId('city', tempareture.name)
     tempId('tempu', tempareture.main.temp)
     tempId('wether', tempareture.weather[0].main)
